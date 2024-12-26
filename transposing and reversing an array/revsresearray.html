@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AR</title>
+    </head>
+    <body>
+        <h1>Array Reverse</h1>
+        Enter a for reverse method and b for for loop: 
+        <input type="text" id="ii" placeholder="Enter a value"><br><br>
+        <button onclick=rev()>Confirm</button>
+        <p id="pp">
+
+        </p>
+
+        <script>
+            function rev(){
+            let a= [2, 33, 4, 65, 12, 34, 13,];
+            let c= document.querySelector("#ii");
+            const p = document.getElementById(pp);
+            switch(c.value){
+                case 'a':
+                    let met= a.reverse();
+                    pp.innerText = met;
+                    break;
+                case "b":
+                    let newArray = [];
+                    for(i= a.length-1; i>=0; i--){
+                        newArray.push(a[i]);
+                    }
+                    pp.innerText = newArray;
+                    break;
+                default:
+                    document.write("Provide 'a' or 'b'.");
+            }
+        }
+        </script>
+    </body>
+</html>

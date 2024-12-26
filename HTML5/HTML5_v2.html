@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Features Example</title>
+</head>
+<body>
+    <header>
+        <h1>Here is header.</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#audio">Audio</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#form">Form</a></li>
+            <li><a href="#progress">Progress</a></li>
+        </ul>
+    </nav>
+    <section id="audio">
+        <h2>Audio Example</h2>
+        <audio controls>
+            <source src="conflicts.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+    <section id="video">
+        <h2>Video Example</h2>
+        <video controls width="600">
+            <source src="a.mp4" type="video/mp4">
+        </video>
+    </section>
+    <section id="form">
+        <h2>Form with Email and Placeholder</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter your email" required>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <section id="progress">
+        <h2>Progress Bar: </h2>
+        <progress value="0" max="100"></progress>
+    </section>
+    <footer>
+        <p>Here is footer.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="style.css" type="text/css"?>
+<cars>
+    <titl>cars</titl>
+    <car>
+        <company>audi</company>
+        <model>r8</model>
+        <price>1.72cr</price>
+        <color>black</color>
+        <year>2014</year>
+    </car>
+    <car>
+        <company>tesla</company>
+        <model>model s</model>
+        <price>70l</price>
+        <color>blue</color>
+        <year>2025</year>
+    </car>
+    <car>
+        <company>BMW</company>
+        <model>XM</model>
+        <price>2.6cr</price>
+        <color>black</color>
+        <year>2022</year>
+    </car>
+</cars>

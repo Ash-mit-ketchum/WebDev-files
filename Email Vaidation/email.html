@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Email Validation</title>
+  </head>
+  <body>
+
+    <script>
+      function validateEmail() {
+        const email = document.getElementById("email").value;
+
+        if (email.indexOf("@") < 1 || email.indexOf("@") > email.length - 2) {
+          alert("Invalid email: '@' must have at least one character before and after it.");
+          return false;
+        }
+
+        if (email.indexOf(".", email.indexOf("@")) == -1 || email.indexOf(".", email.indexOf("@")) <= email.indexOf("@") + 1) {
+          alert("Invalid email: '.' must appear after '@' and have at least one character in between.");
+          return false;
+        }
+
+        if (email.length - email.indexOf(".", email.indexOf("@")) <= 2) {
+          alert("Invalid email: '.' must have at least two characters after it.");
+          return false;
+        }
+
+        alert("Email is valid!");
+        return true;
+      }
+    </script>
+    
+    <h1>Email Validation Form</h1>
+    <form onsubmit="return validateEmail()">
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+      <button type="submit">Validate</button>
+    </form>
+  </body>
+</html>

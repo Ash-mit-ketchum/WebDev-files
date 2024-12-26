@@ -1,0 +1,11 @@
+img{
+    opacity: 0.9;
+    border-radius: 100px;
+    padding: 10px;
+    border: 4px dotted burlywood;
+    -webkit-box-reflect: below 20px;
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 300px;
+}

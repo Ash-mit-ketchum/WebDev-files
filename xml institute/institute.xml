@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<CollegePrograms>
+    <title>DSEU Dwarka Campus</title>
+    <Program>
+        <Name>DCE</Name>
+        <Sections>1</Sections>
+        <TotalSeats>60</TotalSeats>
+        <Eligibility>10th pass</Eligibility>
+    </Program>
+    <Program>
+        <Name>BBA</Name>
+        <Sections>2</Sections>
+        <TotalSeats>60</TotalSeats>
+        <Eligibility>12th pass</Eligibility>
+    </Program>SS
+    <Program>
+        <Name>BA</Name>
+        <Sections>3</Sections>
+        <TotalSeats>76</TotalSeats>
+        <Eligibility>12th pass</Eligibility>
+    </Program>
+</CollegePrograms>

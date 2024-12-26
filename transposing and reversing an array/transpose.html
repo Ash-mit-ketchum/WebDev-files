@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Transpose Array</title>
+    </head>
+    <body>
+        <h1>Array</h1><br>
+        <div id="na"></div>
+        <br><br>
+        <h1>Transposed Array</h1><br>
+        <div id="taa"></div>
+        <br><br>
+        <script>
+            let a= [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+            na.innerText= a;
+
+            let ta= [[],[],[]];
+
+            for(let i=0; i<3; i++){
+                for(let j=0; j<3; j++){
+                    ta[i][j]= a[j][i];
+                }
+            }
+
+            let text= "";
+            for(let i=0; i<3; i++){
+                text = text + `[${ta[i]}]`
+            }
+
+            taa.innerText =`[${text}]`
+        </script>
+    </body>
+</html>
